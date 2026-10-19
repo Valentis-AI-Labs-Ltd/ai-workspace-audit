@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="480" viewBox="0 0 1440 480" role="img" aria-labelledby="title desc">
+  <title id="title">Valentis AI Workspace Audit</title>
+  <desc id="desc">A better place to work with AI. A guided audit by Valentis.</desc>
+  <rect width="1440" height="480" fill="#101010"/>
+  <path d="M1000 0v480M1120 0v480M1240 0v480M1360 0v480M960 120h480M960 240h480M960 360h480" stroke="#242424"/>
+  <rect x="64" y="56" width="7" height="28" fill="#0059fe"/>
+  <text x="88" y="80" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" letter-spacing="-1">valentis</text>
+  <text x="1320" y="78" text-anchor="end" fill="#9b9b9b" font-family="Arial, Helvetica, sans-serif" font-size="16" letter-spacing="3">RESOURCES / 01</text>
+  <text x="64" y="218" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="68" font-weight="700" letter-spacing="-3">AI Workspace Audit</text>
+  <text x="68" y="276" fill="#bcbcbc" font-family="Arial, Helvetica, sans-serif" font-size="27">A better place to work with AI.</text>
+  <rect x="68" y="361" width="102" height="40" rx="20" fill="#0059fe"/>
+  <text x="119" y="387" text-anchor="middle" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700">Start →</text>
+  <text x="192" y="387" fill="#a6a6a6" font-family="Arial, Helvetica, sans-serif" font-size="18">Understand. Improve. Make it yours.</text>
+  <rect x="1045" y="184" width="230" height="173" rx="14" fill="#171717" stroke="#363636"/>
+  <rect x="1063" y="165" width="194" height="24" rx="7" fill="#262626" stroke="#363636"/>
+  <path d="M1080 229h136M1080 258h100M1080 287h118" stroke="#6c6c6c" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="1252" cy="345" r="34" fill="#0059fe"/>
+  <path d="m1238 345 9 9 18-19" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

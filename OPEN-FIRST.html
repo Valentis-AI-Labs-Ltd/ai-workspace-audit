@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="description" content="Start the Valentis AI Workspace Audit with one short prompt.">
+  <title>Start your AI Workspace Audit · Valentis</title>
+  <style>
+    :root { color-scheme: dark; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #101010; color: #fafafa; }
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    a { color: inherit; text-underline-offset: 4px; }
+    button, textarea { font: inherit; }
+    button, a { -webkit-tap-highlight-color: transparent; }
+    :focus-visible { outline: 3px solid #739fff; outline-offset: 5px; }
+    .page { max-width: 1160px; margin: auto; padding: 36px 44px 24px; }
+    header, footer, .prompt-head { display: flex; justify-content: space-between; align-items: center; gap: 20px; }
+    .brand { display: inline-flex; align-items: center; gap: 10px; font-weight: 750; font-size: 27px; letter-spacing: -1px; text-decoration: none; }
+    .brand:before { content: ""; width: 6px; height: 24px; background: #0059fe; }
+    .eyebrow, .tag { font-size: 11px; letter-spacing: .13em; text-transform: uppercase; color: #a5a5a5; }
+    header .eyebrow { text-align: right; }
+    main { padding: 78px 0 62px; }
+    .intro { max-width: 760px; }
+    h1 { font-size: clamp(40px, 6vw, 66px); line-height: 1.07; font-weight: 650; letter-spacing: -.055em; margin: 18px 0 22px; }
+    .lead { color: #bcbcbc; font-size: 18px; line-height: 1.65; max-width: 650px; }
+    .layout { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: 36px; margin-top: 42px; }
+    .steps { list-style: none; margin: 0; padding: 0; }
+    .steps li { display: grid; grid-template-columns: 34px minmax(0, 1fr); gap: 15px; padding: 21px 0; border-top: 1px solid #2b2b2b; }
+    .number { color: #7e9fff; font-size: 12px; font-family: ui-monospace, monospace; padding-top: 5px; }
+    h2, h3 { font-size: 17px; margin: 0 0 8px; font-weight: 600; line-height: 1.45; }
+    .steps p, .small { color: #a8a8a8; font-size: 14px; line-height: 1.65; margin: 0; }
+    .prompt-card { border: 1px solid #333; background: #171717; border-radius: 14px; padding: 24px; align-self: start; }
+    .tag { color: #c4d4ff; font-size: 10px; }
+    textarea { display: block; width: 100%; resize: none; margin: 20px 0; border: 1px solid #333; background: #101010; border-radius: 8px; color: #e9e9e9; padding: 16px; font: 13px/1.75 ui-monospace, SFMono-Regular, Consolas, monospace; min-height: 158px; overflow-wrap: anywhere; }
+    button { border: 0; border-radius: 7px; padding: 13px 20px; color: #fff; background: #0059fe; font-size: 14px; font-weight: 650; cursor: pointer; width: 100%; }
+    button:hover { background: #0047cc; }
+    .status { min-height: 22px; color: #c4d4ff; font-size: 12px; line-height: 1.5; margin: 10px 0 0; }
+    details { border-top: 1px solid #2b2b2b; margin-top: 24px; padding-top: 20px; }
+    summary { font-size: 13px; cursor: pointer; line-height: 1.5; }
+    details p { color: #a8a8a8; font-size: 13px; line-height: 1.7; }
+    .welcome { margin-top: 38px; padding: 23px 26px; border: 1px solid #2e2e2e; border-radius: 12px; max-width: 760px; }
+    .welcome p { color: #bcbcbc; font-size: 14px; line-height: 1.7; margin: 10px 0 0; }
+    .welcome .reply { color: #f4f4f4; }
+    code { color: #dae3fb; font: .92em ui-monospace, monospace; }
+    footer { padding-top: 22px; border-top: 1px solid #2b2b2b; color: #8c8c8c; font-size: 12px; line-height: 1.6; }
+    footer nav { display: flex; gap: 18px; }
+    @media (max-width: 740px) { .page { padding: 25px 22px; } main { padding: 50px 0 38px; } .layout { grid-template-columns: 1fr; gap: 24px; margin-top: 28px; } .lead { font-size: 16px; } .prompt-card { padding: 20px; } footer { align-items: flex-start; flex-direction: column; gap: 10px; } header .eyebrow { max-width: 130px; line-height: 1.6; font-size: 10px; } }
+    @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; } }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <a class="brand" href="https://valentis.ai" aria-label="Valentis home">valentis</a>
+      <span class="eyebrow">Resources / Workspace Audit</span>
+    </header>
+    <main>
+      <section class="intro" aria-labelledby="title">
+        <div class="eyebrow">Your next useful step with AI</div>
+        <h1>A better place<br>to work with AI.</h1>
+        <p class="lead">Find what’s working, improve what gets in the way, and build a setup that makes sense to you. Your assistant will guide you through it.</p>
+      </section>
+      <div class="layout">
+        <section aria-label="How to start">
+          <ol class="steps">
+            <li><span class="number" aria-hidden="true">01</span><div><h2>Open your usual work folder.</h2><p>Use Claude Code, Codex or an AI assistant that can read your files. Keep this kit in its own folder.</p></div></li>
+            <li><span class="number" aria-hidden="true">02</span><div><h2>Paste the starter prompt.</h2><p>Copy the prompt alongside and paste it into your assistant’s chat. It loads the instructions for you.</p></div></li>
+            <li><span class="number" aria-hidden="true">03</span><div><h2>Reply GO. Make it yours.</h2><p>You’ll get a short welcome first. Then choose the workspace to review and the improvements worth making.</p></div></li>
+          </ol>
+          <details><summary>Using a regular chat, or can’t open the link?</summary><p>Attach <code>START-HERE.md</code> from the download and say: “Read this and start my audit.” If your assistant can access the kit folder, you can give it that file’s full path instead.</p><p>Without folder access, your assistant will guide a smaller review using examples you choose to share. Don’t upload credentials or confidential material you aren’t authorised to share.</p></details>
+        </section>
+        <section class="prompt-card" aria-labelledby="prompt-title">
+          <div class="prompt-head"><h2 id="prompt-title">Your starter prompt</h2><span class="tag">Copy → paste</span></div>
+          <label class="small" for="prompt">Paste into your AI assistant.</label>
+          <textarea id="prompt" readonly spellcheck="false">Read https://raw.githubusercontent.com/Valentis-AI-Labs-Ltd/ai-workspace-audit/main/START-HERE.md and start my Valentis AI Workspace Audit.</textarea>
+          <button id="copy" type="button">Copy starter prompt <span aria-hidden="true">↗</span></button>
+          <p id="status" class="status" role="status" aria-live="polite"></p>
+          <p class="small">The first step is a review. You choose what changes afterwards.</p>
+          <noscript><p class="small">Select the prompt above and copy it manually.</p></noscript>
+        </section>
+      </div>
+      <aside class="welcome" aria-label="The welcome you will see">
+        <span class="eyebrow">What happens next</span>
+        <h3 style="margin-top:12px">👋 Thank you for using the Valentis AI Workspace Audit.</h3>
+        <p>This audit will review your chosen workspace, how you use AI, and where a few practical changes could make your work easier.</p>
+        <p>You’ll get clear recommendations, then guided help with the improvements you choose. We’ll start by looking, with no changes to your files.</p>
+        <p class="reply"><strong>Reply GO to get started.</strong></p>
+      </aside>
+    </main>
+    <footer><span>Valentis AI Workspace Audit · v1.0.0</span><nav aria-label="Useful links"><a href="https://github.com/Valentis-AI-Labs-Ltd/ai-workspace-audit">GitHub</a><a href="https://valentis.ai">Built by Valentis</a></nav></footer>
+  </div>
+  <script>
+    const field = document.getElementById('prompt');
+    const button = document.getElementById('copy');
+    const status = document.getElementById('status');
+    button.addEventListener('click', async () => {
+      let copied = false;
+      try {
+        if (navigator.clipboard && window.isSecureContext) {
+          await navigator.clipboard.writeText(field.value.trim());
+          copied = true;
+        }
+      } catch (_) {}
+      if (!copied) {
+        field.focus();
+        field.select();
+        field.setSelectionRange(0, field.value.length);
+        try { copied = document.execCommand('copy'); } catch (_) {}
+      }
+      status.textContent = copied ? 'Copied. Paste it into your assistant to begin.' : 'Prompt selected. Press Ctrl+C or Cmd+C to copy.';
+      if (copied) button.focus();
+    });
+  </script>
+</body>
+</html>
