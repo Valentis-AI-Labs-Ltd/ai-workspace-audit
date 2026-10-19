@@ -8,7 +8,8 @@ ROOT = Path(__file__).resolve().parents[1]
 KIT_FILES = (
     "README.md", "START-HERE.md", "START-PROMPT.txt", "OPEN-FIRST.html",
     "AGENTS.md", "CLAUDE.md", "LICENSE", ".gitignore",
-    "assets/banner.svg", "audit/WORKSHOP.md",
+    "assets/banner.svg", "assets/valentis-logo-light.svg", "assets/valentis-logo-dark.svg",
+    "assets/download-kit.svg", "assets/visit-valentis.svg", "audit/WORKSHOP.md",
     "reference/WORKSPACE.md", "reference/WORKFLOWS.md",
     "reference/CLAUDE-AND-CODEX.md", "reference/SCHEDULING.md",
     "templates/AUDIT-RESULT.md", "templates/AGENTS.md", "templates/CLAUDE.md",
