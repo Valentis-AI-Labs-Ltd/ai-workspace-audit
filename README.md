@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://valentis.ai"><img src="assets/banner.svg" alt="Valentis — Make AI work better for you. A guided audit. A workspace that makes sense." width="100%"></a>
+  <a href="https://valentis.ai"><img src="assets/banner.svg?v=1.0.2" alt="Valentis — Make AI work better for you. A guided audit. A workspace that makes sense." width="100%"></a>
 </p>
 
 <h1 align="center">AI Workspace Audit</h1>
@@ -82,4 +82,4 @@ Use and adapt the kit under the [MIT licence](LICENSE).
   <a href="https://valentis.ai"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/valentis-logo-light.svg"><img src="assets/valentis-logo-dark.svg" alt="Valentis" width="120" height="28"></picture></a>
 </p>
 
-<p align="center"><sub>Version 1.0.1 · Product references checked 19 October 2026.<br>Features and account access can change.</sub></p>
+<p align="center"><sub>Version 1.0.2 · Product references checked 19 October 2026.<br>Features and account access can change.</sub></p>
